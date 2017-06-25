@@ -9,9 +9,10 @@ Try to make the CI interactive, make a CI robot to answer the frequently asked C
 
 * Responds to greetings - Hi, Hello, Hey.
 * Responds for queris like current build, build status, successful nightly build.
+* Send a image to the committer when there's a failure CI build, this will require you have such info in your CI server info.
 
 
-#Dependencies
+### Dependencies
 
 You need to put your CI info to some server. In the current implementation, it reads the JSON response from your CI info database.
 Of course you can try to use the Jeckins info JSON. You'll need to change the URL in the code
