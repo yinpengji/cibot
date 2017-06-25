@@ -1,4 +1,4 @@
-# CIBot - Chat Bot for Skype for Business
+# CIBot - CIBot created for Skype for business
 A bot to automatically respond to Skype queris for CI status
 
 
